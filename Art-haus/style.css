@@ -6,7 +6,7 @@
     }
     
     html,body{
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(0, 0, 0);
     }
     
     #main{
@@ -17,7 +17,7 @@
     #landing{
         width: 100vw;
         height: 100vh;
-        background-image: url(photo-1487452066049-a710f7296400.jpeg);
+        background-image: url(stewart-munro-l7hid8aHIm0-unsplash.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -72,9 +72,6 @@
         
         
     }
-    
-    
-    
     #left a:hover{
         color: #E3B665;
         padding-bottom: 3px;
@@ -102,7 +99,7 @@
         height: 40vh;
         transition: 0.9s;
     }
-    .card img::after{
+    .card img:hover{
         transform: scale(0.9);
     }
 
