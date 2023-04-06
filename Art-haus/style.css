@@ -6,8 +6,6 @@
     }
     
     html,body{
-    height: 100%;
-    width: 100%;
     background-color: rgb(34, 33, 33);
     }
     
@@ -98,7 +96,6 @@
         color: #ffffff;
         text-align: center;
     }
-    
     .card img {
         width:auto;
         box-shadow: 0 4px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(240, 191, 94, 0.2);
