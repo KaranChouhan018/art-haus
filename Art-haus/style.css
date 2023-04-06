@@ -1,9 +1,8 @@
 *{
     margin: 0;
-<<<<<<< HEAD
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
-    font-family: poppins regular;
+    font-family: 'Poppins', sans-serif;
     }
     
     html,body{
@@ -81,7 +80,6 @@
         color: #E3B665;
         padding-bottom: 3px;
     }
-=======
     padding: 0;
     box-sizing: border-box;
 }
@@ -118,4 +116,3 @@
     transition: 0.5s;
     color: rgb(109, 110, 19);
 }
->>>>>>> 5b2cdd7d3feb62a9e0aef75a1733552439e79072
