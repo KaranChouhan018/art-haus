@@ -99,8 +99,12 @@
         width:auto;
         box-shadow: 0 4px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(240, 191, 94, 0.2);
         height: 40vh;
-        transition: 1s;
+        transition: 0.9s;
     }
+    .card img::after{
+        transform: scale(0.9);
+    }
+
     .content{
         width: 100%;
         margin-top: 40px;
