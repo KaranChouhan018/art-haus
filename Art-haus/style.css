@@ -116,3 +116,9 @@
     transition: 0.5s;
     color: rgb(109, 110, 19);
 }
+
+
+
+#main{
+    height: 100vh;
+}
