@@ -102,3 +102,61 @@
         height: 40vh;
         transition: 1s;
     }
+    .content{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .text1{
+        padding-left: 2%;
+        margin-top: 7%;
+    }
+    .text1 h2{
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    }
+    .text1 h4{
+        color: rgb(255, 255, 255);
+    }
+    .text1 p{
+        text-transform: lowercase;
+        color: #ffffff;
+    }
+    .div2 img{
+        height: 60vh;
+        width: auto;
+        margin-top: 80px;
+        transition: 1s;
+        box-shadow: 0 4px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(240, 191, 94, 0.2);
+    }
+    .content1{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .text2{
+        padding-left: 2%;
+        margin-top: 7%;
+    }
+    .text2 h2{
+        font-size: 70px;
+        color: rgb(255, 255, 255);
+    }
+    .text2 h4{
+        color: rgb(255, 255, 255);
+    }
+    .text2 p{
+        text-transform: lowercase;
+        color: #ffffff;
+    }
+    .div3 img{
+        height: 60vh;
+        width: auto;
+        margin-top: 80px;
+        transition: 1s;
+        box-shadow: 0 4px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(240, 191, 94, 0.2);
+    }
