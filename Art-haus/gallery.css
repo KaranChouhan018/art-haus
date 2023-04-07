@@ -35,18 +35,24 @@ body{
     color: #efefef;
 }
 .header button{
-    padding: 8px 16px;
-    border-radius: 7px;
-    box-shadow: none;
-    background-color: #FDA620;
-    border: none;
-    margin-left: 46%;
-    color: white;
-    font-size: 17px;
-    border-top-left-radius: 0px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    margin-left: 43%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #FDA620;
+    background: transparent;
+    color: #ffff;
     cursor: pointer;
-    transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
+    text-decoration: none;
 }
+.header button:hover{
+        color: white;
+        background-color: #FDA620;
+        z-index: 1;
+      }
 .navbar{
     padding: 20px;
     width: 80%;
@@ -160,9 +166,8 @@ body{
         color: rgb(255, 255, 255);
     }
     .text1 p{
-        text-transform: lowercase;
         color: #ffffff;
-        width: 80%;
+        width: 60%;
     }
     .div2 img{
         height: 60vh;
