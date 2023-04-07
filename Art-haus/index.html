@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -28,12 +29,12 @@
             </div>
         </div>
     </div>
-    <div class="about">
-        <div class="new">
+    <div class="about" data-aos="fade-up">
+        <div class="new" data-aos="fade-up">
             <h1>New Arrivals.</h1>
             <hr class="h">
             <br>
-            <div class="cards">
+            <div class="cards" data-aos="fade-up">
                 <div class="card">
                     <img src="alexander-ant-r7xdS9hjYYE-unsplash.jpg" alt="" srcset="">
                     <br>
@@ -67,8 +68,8 @@
             </div>
             <br>
     </div>
-    <div class="content">
-        <div class="text1" data-aos="fade up">
+    <div class="content" >
+        <div class="text1" data-aos="fade-left">
             <h3>Trend This Week</h3>
             <h2>Optimisation for <br>
                 Marketers.</h2>
@@ -77,15 +78,15 @@
             <br>
             <h4>Kay Tension</h4>
         </div>
-        <div class="div2" data-aos="fade up">
+        <div class="div2" data-aos="fade-right">
             <img src="heather-villagran-GaSIDLhdjDo-unsplash.jpg" alt="">
         </div>
     </div>    
         <div class="content1">
-            <div class="div3" data-aos="fade up">
+            <div class="div3" data-aos="fade-left">
                 <img src="nathan-dumlao-uPP0wjXBNR8-unsplash.jpg" alt="">
             </div>
-            <div class="text2" data-aos="fade up">
+            <div class="text2" data-aos="fade-right">
                 <h2>Effortless validation for <br>
                     Design professionals.</h2>
                     <br>
@@ -95,10 +96,10 @@
                 <button>Explore More</button>
             </div>
         </div> 
-        <div class="gallery" id="gallery">
+        <div class="gallery" id="gallery" data-aos="fade-up">
             <h1>Art In Collection.</h1>
             <hr class="h1">
-            <div class="grid-gallery">
+            <div class="grid-gallery" data-aos="fade-up">
                 <div class="grid-item">
                     <img src="stewart-munro-l7hid8aHIm0-unsplash.jpg" alt="">
                 </div>
@@ -120,5 +121,22 @@
             </div>
             <button>More Artwork's</button>
         </div>
+        <br>
+        <br>
+        <div class="cta">
+            <h1>Interested in working with us ?</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Eaque ipsa culpa ratione repudiandae libero,<br> numquam obcaecati voluptatibus fuga incidunt mollitia.</p>
+            <br>
+            <br>
+            <button>Contact Us</button>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:400,
+            duration:1000,
+          });
+        </script>
 </body>
 </html>

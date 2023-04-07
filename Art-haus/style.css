@@ -43,7 +43,7 @@
         padding: 5px 16px;
         border-radius: 7px;
         box-shadow: none;
-        background-color: #E3B665;
+        background-color: #FDA620;
         border: none;
         color: white;
         font-size: 17px;
@@ -62,7 +62,7 @@
     }
     
     #nav span{
-        color:#E3B665;
+        color:#FDA620;
     }
     
     #left{
@@ -89,7 +89,7 @@
         
     }
     #left a:hover{
-        color: #E3B665;
+        color: #FDA620;
         padding-bottom: 3px;
     }
     .new h1{
@@ -108,7 +108,7 @@
         border-radius: 2px;
         margin-top: 2px;
         margin-bottom: 50px;
-        background-color: #E3B665;
+        background-color: #FDA620;
       }
       .cards {
         justify-content: space-around;
@@ -189,7 +189,7 @@
         padding: 8px 16px;
         border-radius: 7px;
         box-shadow: none;
-        background-color: #E3B665;
+        background-color: #FDA620;
         border: none;
         color: white;
         font-size: 17px;
@@ -227,13 +227,13 @@
             border-radius: 2px;
             margin-top: 2px;
             margin-bottom: 50px;
-            background-color: #E3B665;
+            background-color: #FDA620;
     }
     .gallery button{
         padding: 8px 16px;
         border-radius: 7px;
         box-shadow: none;
-        background-color: #E3B665;
+        background-color: #FDA620;
         border: none;
         margin-left: 138px;
         color: white;
@@ -287,6 +287,36 @@
         grid-column: span 1;
         grid-row: span 2;
       }
+      .cta {
+        width: 85%;
+        margin-left: 7.5%;
+        background-image: linear-gradient(rgba(27, 26, 26, 0.75),rgba(34, 33, 33, 0.75)),url(fred-rivett-hen3VgPKKls-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        border-radius: 10px;
+        padding: 100px 100px;
+      }
+      .cta h1{
+        color: #ffffff;
+        font-size: 20pz;
+      }
+      .cta p{
+        color: #ffffff;
+      }
+      .cta button{
+        padding: 8px 16px;
+        
+        border-radius: 7px;
+        box-shadow: none;
+        background-color: #FDA620;
+        border: none;
+        color: white;
+        font-size: 17px;
+        border-top-left-radius: 0px;
+        cursor: pointer;
+        transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
+      }
     @media(max-width:600px){
         .new h1{
             text-align: center;
@@ -298,6 +328,7 @@
         }
         .about p{
             font-size: 12px;
+            width: 100%;
         }
         .card img{
             height: 50vh;
@@ -317,7 +348,7 @@
         }
         .text1 h2{
             text-align: center;
-            font-size: 20px;
+            font-size: 40px;
         }
         .div2 img{
             height: 50vh;
@@ -331,10 +362,14 @@
         }
         .text2 h2{
             text-align: center;
-            font-size: 20px;
+            font-size: 40px;
         }
         .div3 img{
             height: 50vh;
             width: 90%;
+        }
+        .gallery button{
+            margin-right: 23%;
+            margin-left: 37%;
         }
     }
