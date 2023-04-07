@@ -89,7 +89,6 @@
         
     }
     #left a:hover{
-        color: #FDA620;
         padding-bottom: 3px;
     }
 
@@ -198,7 +197,6 @@
     }
     .card img {
         width:auto;
-        box-shadow: 0 3px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(94, 223, 240, 0.2);
         height: 40vh;
         transition: 0.9s;
     }
@@ -237,7 +235,6 @@
         width: auto;
         margin-top: 80px;
         transition: 1s;
-        box-shadow: 0 3px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(94, 169, 240, 0.2);
     }
     .content1{
         width: 100%;
@@ -286,7 +283,6 @@
         width: auto;
         margin-top: 80px;
         transition: 1s;
-        box-shadow: 0 4px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(240, 191, 94, 0.2);
     }
     .gallery h1{
         margin-top: 60px;
@@ -305,6 +301,10 @@
             margin-top: 2px;
             margin-bottom: 50px;
             background-color: #FDA620;
+    }
+    .gallery a{
+        text-decoration: none;
+        color: #efefef;
     }
     .gallery button{
         padding: 8px 16px;
