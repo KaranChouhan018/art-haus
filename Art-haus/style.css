@@ -92,6 +92,83 @@
         color: #FDA620;
         padding-bottom: 3px;
     }
+
+/*login page css start here*/
+
+#login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#loginleft{
+    width: 70%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,0.75)),url(quino-al-zjL2nfIoq3U-unsplash.jpg),url(photo-1487452066049-a710f7296400.jpeg);
+}
+
+#loginright{
+    width: 30%;
+    height: 100%;
+    background-color: #1A1919;
+}
+
+#loginright h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+#loginright input{
+    margin-top: 30px;
+    border: none;
+    background-color: #1A1919;
+    border-bottom: 1px solid #dc9144;
+    width: 80%;
+    padding-bottom: 8px;
+    margin-left: 49px;
+    color: white;
+}
+
+#loginright button{
+    width: 70%;
+    background-color: #dc9144;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    margin-left: 70px;
+}
+
+#loginright p{
+    color: white;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+#loginright a{
+    text-decoration: underline;
+    color: #dc9144;
+}
+
+#loginleft h1{
+    color: white;
+    width: 850px;
+     margin-left: 100px;
+     margin-top: 30%;
+}
+
+/*login page css ends here*/
+
+
+
+
+
     .new h1{
         margin-top: 60px;
         word-spacing: 2px;
