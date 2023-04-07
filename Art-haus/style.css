@@ -198,7 +198,7 @@
     
     align-items: center;
     transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
-   
+   box-shadow:0 6px 8px #dc9144;
 
 }
 
