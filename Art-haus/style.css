@@ -223,7 +223,7 @@ position: absolute;
 
 .tcards h3{
     margin-top: 10px;
-    color: white;
+    color: #dc9144;
 }
 
 #midc{
@@ -233,11 +233,38 @@ position: absolute;
 }
 
 .profile{
-    width: 150px;
-    height: 150px;
-    background-color: white;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+#p1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.cloudways.com/wp-content/uploads/2020/01/testimonial-edward.png);
+}
+
+#p2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.cloudways.com/wp-content/uploads/2020/01/testimonials_adams.jpg)
+}
+
+#p3{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.cloudways.com/wp-content/uploads/2020/01/testimonials_judith.jpg);
+}
+
+#tline{
+    background-color: #dc9144;
+    height: 5px;
+    width: 140px;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: 32px;
 }
 
 
