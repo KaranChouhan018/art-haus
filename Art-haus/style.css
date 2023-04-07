@@ -514,6 +514,7 @@ position: absolute;
       .cta button:hover{
         scale: 1.1;
       }
+      
     @media(max-width:600px){
         .new h1{
             text-align: center;
@@ -589,22 +590,12 @@ position: absolute;
         #loginright #h2{
             margin-left: 180px;
         }
-        #footer{
-            width: 50%;
-            margin-bottom: 30px;
-        }
-        #footer #f1 #f2{
-            flex-direction: column;
-        }
     }
     #footer{
         width: 100%;
         height: 40vh;
-      
         display: flex;
         border-top:1px solid #dc9144;
-       
-      
     }    
     #f1{
         width: 24%;
