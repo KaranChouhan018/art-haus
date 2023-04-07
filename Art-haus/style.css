@@ -47,6 +47,11 @@
         color: white;
         font-size: 17px;
         border-top-left-radius: 0px;
+        transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    }
+
+    #nav button:hover{
+        scale: 1.1;
     }
     
     #nav h1{
@@ -189,7 +194,15 @@
         font-size: 17px;
         border-top-left-radius: 0px;
         cursor: pointer;
+        transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
     }
+
+    .text2 button:hover{
+        scale: 1.1;
+    }
+
+
+
     .div3 img{
         height: 60vh;
         width: auto;
@@ -227,6 +240,7 @@
         grid-auto-flow: dense;
         grid-gap: 20px;
         
+        
       }
       
       .grid-gallery .grid-item {
@@ -234,14 +248,19 @@
         background-color: #efefef;
         overflow: hidden;
         border-radius: 10px;
+        
       }
       
       .grid-gallery .grid-item img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
         transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
       }
+
+      
+
       .grid-gallery .grid-item:nth-child(1) {
         grid-column: span 2;
         grid-row: span 2;
