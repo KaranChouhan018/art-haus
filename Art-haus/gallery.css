@@ -174,5 +174,24 @@ body{
         width: auto;
         margin-top: 80px;
         transition: 1s;
-        box-shadow: 0 3px 8px 0 rgba(64, 129, 138, 0.4), 0 8px 20px 0 rgba(94, 169, 240, 0.2);
+    }
+    @media(max-width:600px){
+        .content{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 3rem;
+        }
+        .text1 h2{
+            text-align: center;
+            font-size: 40px;
+        }
+        .text1 p{
+            width: 80%;
+            
+        }
+        .div2 img{
+            height: 50vh;
+            width: 90%;
+        }
     }
