@@ -167,9 +167,9 @@
 
 #loginleft h1{
     color: white;
-    width: 850px;
-     margin-left: 100px;
-     margin-top: 30%;
+    width: 80%;
+    text-align: center;
+    
 }
 
 /*login page css ends here*/
