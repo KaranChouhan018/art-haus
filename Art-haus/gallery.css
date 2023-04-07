@@ -111,6 +111,11 @@ body{
     cursor: pointer;
     transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
 }
+
+#gallery a{
+    text-decoration: none;
+    color: white;
+}
 .grid-gallery {
     width: 100%;
     max-width: 1600px;
