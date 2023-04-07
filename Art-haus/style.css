@@ -179,6 +179,7 @@
 #test{
     width: 100%;
     height: 70vh;
+   
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -190,7 +191,7 @@
     width: 22vw;
     height: 40vh;
     background-color: #383636;
-    border-radius: 30px;
+
     border: 1px solid #dc9144;
     display: flex;
     flex-direction: column;
