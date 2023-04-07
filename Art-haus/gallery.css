@@ -175,7 +175,67 @@ body{
         margin-top: 80px;
         transition: 1s;
     }
+    footer{
+        background: #FDA620;
+        height: auto;
+        width: 100%;
+        padding-top: 40px;
+        margin-top: 40px;
+        color: black;
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-content h1{
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    .footer-content .p3{
+        max-width: 1000px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 18px;
+    }
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    }
+    .socials li{
+        margin: 0 10px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: black;
+    }
+    .socials a i{
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    
+    }
+    .socials a:hover i{
+        color: aqua;
+    }
     @media(max-width:600px){
+        .header {
+            left: 50%;
+      }
+  
+      .header h1 {
+            font-size: 34px !important;
+            text-align: center;
+      }
+      .header button{
+        margin-left: 27%;
+      }
         .content{
             display: flex;
             flex-direction: column;
@@ -187,7 +247,9 @@ body{
             font-size: 40px;
         }
         .text1 p{
-            width: 80%;
+            width: 65%;
+            text-align: center;
+            margin-left: 95px;
             
         }
         .div2 img{

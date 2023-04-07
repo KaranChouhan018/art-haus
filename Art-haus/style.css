@@ -335,7 +335,6 @@ position: absolute;
         color: rgb(255, 255, 255);
     }
     .text1 p{
-        text-transform: lowercase;
         color: #ffffff;
         width: 80%;
     }
@@ -364,7 +363,6 @@ position: absolute;
         color: rgb(255, 255, 255);
     }
     .text2 p{
-        text-transform: lowercase;
         color: #ffffff;
         width: 60%;
     }
