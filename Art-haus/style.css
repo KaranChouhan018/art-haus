@@ -583,7 +583,7 @@ position: absolute;
 
     #footer{
         width: 100%;
-        height: 50vh;
+        height: 40vh;
       
         display: flex;
         border-top:1px solid #dc9144;
@@ -595,10 +595,13 @@ position: absolute;
         width: 24%;
         background-color: #1A1919;
         height: 80%;
-        border-bottom: 1pX solid #dc9144;
+     
         padding: 50px 100px;
         color: white;
         
+    }
+    #f1 p{
+        width: 300px;
     }
 
     #f1 span{
@@ -622,15 +625,17 @@ position: absolute;
         color: white;
         height: 80%;
         line-height: 40px;
-        padding: 50px 60px;
-        border-bottom: 1pX solid #dc9144;
+        padding: 50px 80px;
+       
     }
 
     #f2 span{
         font-weight: 900;
+        
     }
     #f3 span{
         font-weight: 900;
+        
     }
 
     #f3{
@@ -639,14 +644,14 @@ position: absolute;
         padding: 50px 50px;
         line-height: 40px;
         height: 80%;
-        border-bottom: 1pX solid #dc9144;
+        
     }
 
     #f4{
         width: 32%;
         color: white;
         height: 80%;
-        border-bottom: 1pX solid #dc9144;
+       
         padding: 50px 10px;
     }
 
@@ -671,5 +676,24 @@ position: absolute;
 
 
     #f4 button:hover{
+        scale: 1.1;
+    }
+
+    #f4 a{
+        text-decoration: none;
+    }
+
+
+    #f4 i{
+        color: #dc9144;
+        font-size: 30px;
+        letter-spacing: 30px;
+        margin-top: 50px;
+        display: inline-block;
+        transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    }
+
+    #f4 i:hover{
+
         scale: 1.1;
     }
