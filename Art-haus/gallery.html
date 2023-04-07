@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="main">
-        <div class="header">
+        <div class="header" data-aos="fade up">
             <h1>We are here for managing fund data.</h1>
             <br>
             <button><a href="#gallery">Explore.</a></button>
@@ -27,10 +28,10 @@
             </ul>
         </div>
     </div>
-    <div class="gallery" id="gallery" data-aos="fade-up">
+    <div class="gallery" id="gallery" data-aos="fade up">
         <h1>Our Collection.</h1>
         <hr class="h1">
-        <div class="grid-gallery" data-aos="fade-up">
+        <div class="grid-gallery" data-aos="fade up">
             <div class="grid-item">
                 <img src="stewart-munro-l7hid8aHIm0-unsplash.jpg" alt="">
             </div>
@@ -86,7 +87,7 @@
         <button>More Artwork's</button>
     </div>
     <div class="content" >
-        <div class="text1" data-aos="fade-left">
+        <div class="text1" data-aos="fade left">
             <h3>Trend This Week</h3>
             <h2>Optimisation for <br>
                 Marketers.</h2>
@@ -95,9 +96,18 @@
             <br>
             <h4>Kay Tension</h4>
         </div>
-        <div class="div2" data-aos="fade-right">
+        <div class="div2" data-aos="fade right">
             <img src="heather-villagran-GaSIDLhdjDo-unsplash.jpg" alt="">
         </div>
     </div>    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:400,
+        duration:1000,
+      });
+    </script>
 </body>
+
 </html>
