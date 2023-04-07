@@ -190,7 +190,7 @@
 .tcards{
     width: 22vw;
     height: 40vh;
-    background-color: #383636;
+    background-color: #161515;
 
     border: 1px solid #dc9144;
     display: flex;
@@ -525,5 +525,21 @@ position: absolute;
         .gallery button{
             margin-right: 23%;
             margin-left: 37%;
+        }
+        #login{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 3rem;
+        }
+        #loginleft {
+            width: 100%;
+        }
+        #loginleft h1{
+            width: 80%;
+        }
+        #loginright{
+            width: 80%;
+            margin-top: 100px;
         }
     }
