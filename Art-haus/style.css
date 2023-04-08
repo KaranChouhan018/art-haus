@@ -345,7 +345,10 @@ position: absolute;
         justify-content: space-around;
         display: flex;
         gap: 2rem;
+        
     }
+
+    
     .cards h4{
         color: #ffffff;
         text-align: center;
