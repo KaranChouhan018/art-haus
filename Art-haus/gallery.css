@@ -57,13 +57,20 @@ body{
         z-index: 1;
       }
 .navbar{
-    padding: 20px;
+    padding:20px;
     width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.navbar img{
+    height: 60px;
+    
+}
+
+
 .navbar h1{
     color: white;
 }

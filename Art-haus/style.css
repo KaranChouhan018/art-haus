@@ -120,7 +120,7 @@
     }
     
     #left{
-        width: 43%;
+        width: 46%;
         display: inline-block;
         position: absolute;
         right: 0;
@@ -345,7 +345,10 @@ position: absolute;
         justify-content: space-around;
         display: flex;
         gap: 2rem;
+        
     }
+
+    
     .cards h4{
         color: #ffffff;
         text-align: center;
@@ -526,6 +529,13 @@ position: absolute;
         color: #ffffff;
         font-size: 20pz;
       }
+      .cta a{
+        text-decoration: none;
+        color: white;
+      }
+
+
+
       .cta p{
         color: #ffffff;
       }
