@@ -127,6 +127,7 @@ body{
 .card h2{
     margin-top: 10px;
     color: white;
+    font-weight: 400;
 }
 
 .card p{
@@ -135,5 +136,7 @@ body{
 }
 
 .card h4{
+    font-weight: 500;
+    margin-top: 10px;
     color: #FDA620;
 }
