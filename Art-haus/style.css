@@ -39,6 +39,11 @@
         align-items: center;
     }
 
+    #nav img{
+        height: 160px;
+        padding-left: 70px;
+    }
+
     #nav button{
         padding: 5px 16px;
         border-radius: 7px;
