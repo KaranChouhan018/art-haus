@@ -34,6 +34,9 @@ body{
     text-decoration: none;
     color: #efefef;
 }
+.header span{
+    color: #FDA620;
+}
 .header button{
     width: 200px;
     padding: 15px 0;
