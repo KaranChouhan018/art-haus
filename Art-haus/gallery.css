@@ -265,4 +265,7 @@ body{
             height: 50vh;
             width: 90%;
         }
+        .gallery button{
+            margin-left: 40%;
+        }
     }

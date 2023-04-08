@@ -99,10 +99,9 @@
 /*login page css start here*/
 
 #login{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
-    overflow: hidden;
 }
 
 #loginleft{
@@ -184,9 +183,8 @@
 #test{
     width: 100%;
     height: 70vh;
-   
     display: flex;
-    gap: 50px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -573,32 +571,42 @@ position: absolute;
         #loginright #h2{
             margin-left: 180px;
         }
-        footer{
-            bottom: unset;
+        footer #f1{
+            flex-basis: 80%;
+            margin: 0 auto;
         }
-        #f1{
-            flex-basis: 100%;
-        }
-        #f1:nth-child(2), #f1:nth-child(3){
-            flex-basis: 100%;
+        footer #f1:nth-child(4){
+            margin-top: 30px;
         }
     }
-    #footer{
-        width: 100%;
-        height: 40vh;
-        display: flex;
-        border-top:1px solid #dc9144;
-    }    
-    #f1{
-        width: 24%;
+    footer{
         background-color: #1A1919;
-        height: 80%;
-        padding: 50px 100px;
-        color: white;
-        margin-left: 3%;
+        padding: 50px 20px;
+    }
+    footer #container{
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    footer #f1{
+        flex-basis: 18%;
+    }
+    #f1 h1{
+        font-size: 30px;
+        color: #ffffff;
+    }
+    #f1 h3{
+        font-size: 15px;
+        color: #efefef;
     }
     #f1 p{
         width: 300px;
+        color: #efefef;
     }
     #f1 span{
         color: #FDA620;
@@ -609,13 +617,8 @@ position: absolute;
         list-style-type: none;
         margin: 0;
         padding: 0;
-    }
-    #f1{
-        width: 20%;
-        color: white;
-        padding: 50px 50px;
+        color: #efefef;
         line-height: 40px;
-        height: 80%;   
     }
     #f1 input{
         width: 300px;
@@ -631,6 +634,7 @@ position: absolute;
         border: none;
         padding: 10px;
         transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+        margin-top: 10px;
     }
     #f1 button:hover{
         scale: 1.1;
