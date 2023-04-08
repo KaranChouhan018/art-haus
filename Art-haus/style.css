@@ -526,6 +526,13 @@ position: absolute;
         color: #ffffff;
         font-size: 20pz;
       }
+      .cta a{
+        text-decoration: none;
+        color: white;
+      }
+
+
+
       .cta p{
         color: #ffffff;
       }
