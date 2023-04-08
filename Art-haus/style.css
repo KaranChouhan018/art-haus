@@ -41,7 +41,7 @@
         width: 70vw;
         animation-name: h1anime;
         animation-duration: 2s;
-        animation-delay: .5s;
+        animation-delay: 1s;
         animation-fill-mode:backwards;
         text-align: center;
     }
@@ -69,11 +69,13 @@
         align-items: center;
         animation-name: navanime;
         animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
     }
 
     @keyframes navanime {
         0%{
-            top:-200px;
+            top:-90px;
         }
 
         100%{
