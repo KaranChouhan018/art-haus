@@ -175,3 +175,33 @@ body{
         margin-left: 320px;
     }
 }
+@media(max-width:765px){
+    #f{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cards{
+        margin-top: 200px;
+    }
+    .content{
+        margin-top: 182px;
+        padding-bottom: 0;
+    }
+    .card h2{
+        font-size: 15px;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    .card h4{
+        font-size: 10px;
+    }
+    .right{
+        width: 90%;
+    }
+    .right button{
+        margin-left: 320px;
+    }
+        
+}

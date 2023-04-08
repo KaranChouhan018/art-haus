@@ -258,7 +258,7 @@ body{
             display: flex;
             flex-direction: column;
             text-align: center;
-            gap: 3rem;
+            gap: 30px;
         }
         .text1 h2{
             text-align: center;
@@ -270,11 +270,37 @@ body{
             margin-left: 95px;
             
         }
-        .div2 img{
-            height: 50vh;
+        .img1 img{
+            height: 500px;
             width: 90%;
         }
         .gallery button{
             margin-left: 40%;
+        }
+    }
+    @media(max-width:765px){
+        .content{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 30px;
+        }
+        .text1 h2{
+            text-align: center;
+            font-size: 40px;
+        }
+        .text1 p{
+            width: 100%;
+            text-align: center;
+        }
+        .img1 img{
+            height: 500px;
+            width: 90%;
+        }
+        .gallery button{
+            margin-left: 41%;
+        }
+        .header button{
+            margin-left: 32%;
         }
     }
