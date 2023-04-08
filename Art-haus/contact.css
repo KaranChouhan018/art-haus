@@ -159,6 +159,9 @@ body{
         margin-top: 182px;
         padding-bottom: 0;
     }
+    .card h2{
+        font-size: 15px;
+    }
     .card p{
         font-size: 10px;
     }
@@ -166,6 +169,6 @@ body{
         font-size: 10px;
     }
     .right{
-        width: 80%;
+        width: 90%;
     }
 }

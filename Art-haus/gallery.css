@@ -22,7 +22,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4vh;
-
     word-spacing: 10px;
 }
 .header h1{
@@ -253,7 +252,7 @@ body{
             text-align: center;
       }
       .header button{
-        margin-left: 27%;
+        margin-left: 28%;
       }
         .content{
             display: flex;
