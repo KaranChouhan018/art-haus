@@ -171,4 +171,7 @@ body{
     .right{
         width: 90%;
     }
+    .right button{
+        margin-left: 320px;
+    }
 }
