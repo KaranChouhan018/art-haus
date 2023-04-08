@@ -35,9 +35,9 @@ body{
 .content{
     width: 500px;
     height: 100px;
-    margin-top: 80px;
+    margin-top: 100px;
     color: white;
-    margin-left: 90px;
+    margin-left: 170px;
     
 }
 
@@ -101,7 +101,7 @@ body{
 .cards{
     width: 100%;
     margin-top: 250px;
-    height: 320px;
+    height: 310px;
  
  display: flex;
  justify-content: center;
@@ -116,4 +116,24 @@ body{
     background-color: #2F2D2D;
     align-items: center;
     text-align: center;
+    padding-top: 40px;
+}
+
+.card i{
+    color: #FDA620;
+    font-size: 30px;
+}
+
+.card h2{
+    margin-top: 10px;
+    color: white;
+}
+
+.card p{
+    color:  white;
+    margin-top: 10PX;
+}
+
+.card h4{
+    color: #FDA620;
 }
