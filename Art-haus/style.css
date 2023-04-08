@@ -570,7 +570,6 @@ position: absolute;
         #left{
             width: 11%;
         }
-
         .card img{
             height: 50vh;
             width: 95%;
@@ -639,6 +638,12 @@ position: absolute;
         }
         footer #f1:nth-child(4){
             margin-top: 30px;
+        }
+        .tcards p{
+            font-size: 10px;
+        }
+        #midc p{
+            font-size: 10px;
         }
     }
     @media(max-width:1200px){
